@@ -1,0 +1,17 @@
+{
+  "name": "cordova-android-info",
+  "version": "0.0.1",
+  "description": "Get the infomation of mobile device",
+  "cordova": {
+    "id": "cordova-android-info",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "andaica",
+  "license": "Apache"
+}
