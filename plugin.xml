@@ -12,8 +12,8 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="cordova-android-info">
-                <param name="android-package" value="cordova-android-info.cordova-android-info" />
+            <feature name="DeviceInfoPlugin">
+                <param name="android-package" value="android.DeviceInfoPlugin" />
             </feature>
         </config-file>
 
@@ -24,7 +24,7 @@
             <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
         </config-file>
 
-        <source-file src="src/android/cordova-android-info.java"
-            target-dir="src/cordova-android-info/cordova-android-info" />
+        <source-file src="src/android/DeviceInfoPlugin.java"
+            target-dir="src/android/DeviceInfoPlugin" />
     </platform>
 </plugin>

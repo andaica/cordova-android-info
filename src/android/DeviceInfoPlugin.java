@@ -1,4 +1,4 @@
-package cordova-android-info;
+package android;
 
 import android.hardware.Camera;
 import android.util.Log;
@@ -13,7 +13,7 @@ import org.json.JSONObject;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class cordova-android-info extends CordovaPlugin {
+public class DeviceInfoPlugin extends CordovaPlugin {
 
     public int NO_CAMERA = -101;
     private int mCameraId = NO_CAMERA;
